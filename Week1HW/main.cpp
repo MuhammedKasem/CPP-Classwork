@@ -1,9 +1,10 @@
 // Week 1 Homework Muhammed Kasem Restaurant Bill Assignment
 #include <iostream>
+
 using namespace std;
 
 int main() {
-  
+
   // Variable Declarations
   double tax = 0.0625;
   double restBill = 57.50;
@@ -19,5 +20,3 @@ int main() {
   cout << "Total: $" << total << endl;
   return 0;
 }
-
-
