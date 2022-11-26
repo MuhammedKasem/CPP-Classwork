@@ -1,0 +1,13 @@
+# ninja log v5
+2	354	1669071057880981571	CMakeFiles/class.dir/test1/main.cpp.o	a0c87a0f6d1013f5
+0	383	1669071057912980445	CMakeFiles/class.dir/chapter2/main.cpp.o	774c337943f415c0
+2	393	1669071057922939421	CMakeFiles/class.dir/Week10/overloadedGrossPay/overloadedGrossPay.cpp.o	784c5cc9805d53c8
+2	396	1669071057927545551	CMakeFiles/class.dir/week1/main.cpp.o	3d91bf048dc29ca5
+2	399	1669071057930504753	CMakeFiles/class.dir/Test2/main.cpp.o	573509960646c16d
+2	415	1669071057945252517	CMakeFiles/class.dir/test/main.cpp.o	5ab66cbe364b48aa
+396	679	1669071058208593107	CMakeFiles/class.dir/Week2/3DaySales/main.cpp.o	f699984636be107b
+399	683	1669071058213841459	CMakeFiles/class.dir/Week2/BooksRead/main.cpp.o	d208c582c99f6b7d
+355	686	1669071058217792867	CMakeFiles/class.dir/Week10/staticLocalVariableDemo/staticLocalVariableDemo.cpp.o	87c5fba6474983b8
+393	693	1669071058225605271	CMakeFiles/class.dir/Week1HW/main.cpp.o	9364c58b0c9fb87b
+415	701	1669071058234172392	CMakeFiles/class.dir/Week2/EggsProblem/main.cpp.o	d18327710a89324a
+680	883	1669071058416258372	CMakeFiles/class.dir/Week2/Week2HW/main.cpp.o	958f88b6135667a9

@@ -1,0 +1,379 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: class
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/muhammed/class/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target class
+
+
+#############################################
+# Order-only phony target for class
+
+build cmake_object_order_depends_target_class: phony || CMakeFiles/class.dir
+
+build CMakeFiles/class.dir/chapter2/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/chapter2/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/chapter2/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/chapter2
+
+build CMakeFiles/class.dir/test/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/test/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/test/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/test
+
+build CMakeFiles/class.dir/test1/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/test1/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/test1/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/test1
+
+build CMakeFiles/class.dir/Test2/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Test2/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Test2/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Test2
+
+build CMakeFiles/class.dir/week1/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/week1/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/week1/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/week1
+
+build CMakeFiles/class.dir/Week10/overloadedGrossPay/overloadedGrossPay.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week10/overloadedGrossPay/overloadedGrossPay.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week10/overloadedGrossPay/overloadedGrossPay.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week10/overloadedGrossPay
+
+build CMakeFiles/class.dir/Week10/staticLocalVariableDemo/staticLocalVariableDemo.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week10/staticLocalVariableDemo/staticLocalVariableDemo.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week10/staticLocalVariableDemo/staticLocalVariableDemo.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week10/staticLocalVariableDemo
+
+build CMakeFiles/class.dir/Week10/Week10Lab/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week10/Week10Lab/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week10/Week10Lab/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week10/Week10Lab
+
+build CMakeFiles/class.dir/Week1HW/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week1HW/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week1HW/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week1HW
+
+build CMakeFiles/class.dir/Week2/3DaySales/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week2/3DaySales/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week2/3DaySales/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week2/3DaySales
+
+build CMakeFiles/class.dir/Week2/BooksRead/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week2/BooksRead/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week2/BooksRead/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week2/BooksRead
+
+build CMakeFiles/class.dir/Week2/EggsProblem/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week2/EggsProblem/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week2/EggsProblem/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week2/EggsProblem
+
+build CMakeFiles/class.dir/Week2/Week2HW/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week2/Week2HW/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week2/Week2HW/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week2/Week2HW
+
+build CMakeFiles/class.dir/Week2/Week2Lab/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week2/Week2Lab/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week2/Week2Lab/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week2/Week2Lab
+
+build CMakeFiles/class.dir/Week2/WidgetsSold/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week2/WidgetsSold/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week2/WidgetsSold/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week2/WidgetsSold
+
+build CMakeFiles/class.dir/Week3/monthlyPayment/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week3/monthlyPayment/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week3/monthlyPayment/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week3/monthlyPayment
+
+build CMakeFiles/class.dir/Week3/randomNumbers/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week3/randomNumbers/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week3/randomNumbers/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week3/randomNumbers
+
+build CMakeFiles/class.dir/Week3/Week3HW/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week3/Week3HW/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week3/Week3HW/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week3/Week3HW
+
+build CMakeFiles/class.dir/Week3/Week3Lab/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week3/Week3Lab/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week3/Week3Lab/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week3/Week3Lab
+
+build CMakeFiles/class.dir/Week4/changeGame/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week4/changeGame/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week4/changeGame/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week4/changeGame
+
+build CMakeFiles/class.dir/Week4/minimumMaximum/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week4/minimumMaximum/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week4/minimumMaximum/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week4/minimumMaximum
+
+build CMakeFiles/class.dir/Week4/rectangleComparison/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week4/rectangleComparison/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week4/rectangleComparison/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week4/rectangleComparison
+
+build CMakeFiles/class.dir/Week4/Week4HW/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week4/Week4HW/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week4/Week4HW/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week4/Week4HW
+
+build CMakeFiles/class.dir/Week5/geometryCalc/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week5/geometryCalc/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week5/geometryCalc/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week5/geometryCalc
+
+build CMakeFiles/class.dir/Week5/speedOfSound/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week5/speedOfSound/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week5/speedOfSound/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week5/speedOfSound
+
+build CMakeFiles/class.dir/Week5/testReview/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week5/testReview/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week5/testReview/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week5/testReview
+
+build CMakeFiles/class.dir/Week5/Week5HW/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week5/Week5HW/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week5/Week5HW/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week5/Week5HW
+
+build CMakeFiles/class.dir/Week6/grandNashDoWhile/grandNashHotelDoWhile.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week6/grandNashDoWhile/grandNashHotelDoWhile.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week6/grandNashDoWhile/grandNashHotelDoWhile.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week6/grandNashDoWhile
+
+build CMakeFiles/class.dir/Week6/inClassProgram/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week6/inClassProgram/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week6/inClassProgram/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week6/inClassProgram
+
+build CMakeFiles/class.dir/Week6/letterGradesLoop/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week6/letterGradesLoop/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week6/letterGradesLoop/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week6/letterGradesLoop
+
+build CMakeFiles/class.dir/Week6/salesForLoopWithAcum/salesForLoopWithAcum.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week6/salesForLoopWithAcum/salesForLoopWithAcum.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week6/salesForLoopWithAcum/salesForLoopWithAcum.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week6/salesForLoopWithAcum
+
+build CMakeFiles/class.dir/Week6/Week6Lab/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week6/Week6Lab/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week6/Week6Lab/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week6/Week6Lab
+
+build CMakeFiles/class.dir/Week8/guessingGame/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week8/guessingGame/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week8/guessingGame/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week8/guessingGame
+
+build CMakeFiles/class.dir/Week8/Week8Hw/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week8/Week8Hw/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week8/Week8Hw/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week8/Week8Hw
+
+build CMakeFiles/class.dir/Week8/Week8Lab/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week8/Week8Lab/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week8/Week8Lab/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week8/Week8Lab
+
+build CMakeFiles/class.dir/Week8/nestedLoopStudentScores.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week8/nestedLoopStudentScores.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week8/nestedLoopStudentScores.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week8
+
+build CMakeFiles/class.dir/Week8/salesOutputFile.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week8/salesOutputFile.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week8/salesOutputFile.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week8
+
+build CMakeFiles/class.dir/Week9/Lab1/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week9/Lab1/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week9/Lab1/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week9/Lab1
+
+build CMakeFiles/class.dir/Week9/Lab2/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week9/Lab2/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week9/Lab2/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week9/Lab2
+
+build CMakeFiles/class.dir/Week9/Week9HW/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week9/Week9HW/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week9/Week9HW/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week9/Week9HW
+
+build CMakeFiles/class.dir/Week11/arrayTest/main.cpp.o: CXX_COMPILER__class_Debug /Users/muhammed/class/Week11/arrayTest/main.cpp || cmake_object_order_depends_target_class
+  DEP_FILE = CMakeFiles/class.dir/Week11/arrayTest/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/class.dir
+  OBJECT_FILE_DIR = CMakeFiles/class.dir/Week11/arrayTest
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class
+
+
+#############################################
+# Link the executable class
+
+build class: CXX_EXECUTABLE_LINKER__class_Debug CMakeFiles/class.dir/chapter2/main.cpp.o CMakeFiles/class.dir/test/main.cpp.o CMakeFiles/class.dir/test1/main.cpp.o CMakeFiles/class.dir/Test2/main.cpp.o CMakeFiles/class.dir/week1/main.cpp.o CMakeFiles/class.dir/Week10/overloadedGrossPay/overloadedGrossPay.cpp.o CMakeFiles/class.dir/Week10/staticLocalVariableDemo/staticLocalVariableDemo.cpp.o CMakeFiles/class.dir/Week10/Week10Lab/main.cpp.o CMakeFiles/class.dir/Week1HW/main.cpp.o CMakeFiles/class.dir/Week2/3DaySales/main.cpp.o CMakeFiles/class.dir/Week2/BooksRead/main.cpp.o CMakeFiles/class.dir/Week2/EggsProblem/main.cpp.o CMakeFiles/class.dir/Week2/Week2HW/main.cpp.o CMakeFiles/class.dir/Week2/Week2Lab/main.cpp.o CMakeFiles/class.dir/Week2/WidgetsSold/main.cpp.o CMakeFiles/class.dir/Week3/monthlyPayment/main.cpp.o CMakeFiles/class.dir/Week3/randomNumbers/main.cpp.o CMakeFiles/class.dir/Week3/Week3HW/main.cpp.o CMakeFiles/class.dir/Week3/Week3Lab/main.cpp.o CMakeFiles/class.dir/Week4/changeGame/main.cpp.o CMakeFiles/class.dir/Week4/minimumMaximum/main.cpp.o CMakeFiles/class.dir/Week4/rectangleComparison/main.cpp.o CMakeFiles/class.dir/Week4/Week4HW/main.cpp.o CMakeFiles/class.dir/Week5/geometryCalc/main.cpp.o CMakeFiles/class.dir/Week5/speedOfSound/main.cpp.o CMakeFiles/class.dir/Week5/testReview/main.cpp.o CMakeFiles/class.dir/Week5/Week5HW/main.cpp.o CMakeFiles/class.dir/Week6/grandNashDoWhile/grandNashHotelDoWhile.cpp.o CMakeFiles/class.dir/Week6/inClassProgram/main.cpp.o CMakeFiles/class.dir/Week6/letterGradesLoop/main.cpp.o CMakeFiles/class.dir/Week6/salesForLoopWithAcum/salesForLoopWithAcum.cpp.o CMakeFiles/class.dir/Week6/Week6Lab/main.cpp.o CMakeFiles/class.dir/Week8/guessingGame/main.cpp.o CMakeFiles/class.dir/Week8/Week8Hw/main.cpp.o CMakeFiles/class.dir/Week8/Week8Lab/main.cpp.o CMakeFiles/class.dir/Week8/nestedLoopStudentScores.cpp.o CMakeFiles/class.dir/Week8/salesOutputFile.cpp.o CMakeFiles/class.dir/Week9/Lab1/main.cpp.o CMakeFiles/class.dir/Week9/Lab2/main.cpp.o CMakeFiles/class.dir/Week9/Week9HW/main.cpp.o CMakeFiles/class.dir/Week11/arrayTest/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/class.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = class
+  TARGET_PDB = class.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/muhammed/class/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/muhammed/class/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/muhammed/class -B/Users/muhammed/class/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/muhammed/class/cmake-build-debug
+
+build all: phony class
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
